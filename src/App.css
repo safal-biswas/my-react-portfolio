@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    z-index: 100 !important;
+}
+
+.second-last-card {
+    margin-left: 0%;
+}
+
+@media (min-width: 1024px) {
+    /* Adjust breakpoint as needed for 3-column layout */
+    .second-last-card {
+        margin-left: 50%;
+    }
+}
+
+.last-card {
+    margin-left: 50%;
+}
+
+.bdr {
+    @apply border-2 border-orange-400;
+}
+
+.btn {
+    @apply bg-accent text-darkBlue py-2 px-6 transition-all duration-300 rounded-md hover:bg-accentLight hover:text-darkGray shadow-md shadow-gray-600 active:scale-90;
+}
+.slider_btn {
+    @apply text-5xl bg-white text-gray-400 transition-all duration-300 rounded-full opacity-80 hover:opacity-100 hover:bg-accentLight hover:text-darkGray shadow-md shadow-gray-600 active:scale-90;
+}
+
+.nav-item {
+    @apply font-medium text-lightGray text-center border-none hover:text-accent hover:bg-transparent relative;
+}
+
+.nav-transition {
+    @apply absolute left-0 -bottom-1 h-[2px] w-0 bg-accent transition-all duration-300 group-hover:w-full;
+}
+
+.contact-fields {
+    @apply w-full px-4 py-2 bg-black text-white rounded focus:outline-none focus:ring-2 focus:ring-accent;
+}
