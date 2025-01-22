@@ -128,7 +128,7 @@ function Contacts() {
                             className="w-full lg:w-1/2 lg:px-8">
                             <form
                                 onSubmit={onSubmit}
-                                className="bg-black bg-opacity-60 p-6 rounded-lg shadow-lg flex flex-col gap-6"
+                                className="bg-black bg-opacity-60 p-6 rounded-lg shadow-lg flex flex-col gap-3 md:gap-6"
                             >
                                 <div className="flex flex-col md:flex-row gap-4">
                                     <input
@@ -163,7 +163,7 @@ function Contacts() {
                                 <div className="flex justify-end">
                                     <button
                                         type="submit"
-                                        className="btn w-2/3 md:w-1/2"
+                                        className="btn w-full md:w-1/2"
                                     >
                                         Send Message
                                     </button>

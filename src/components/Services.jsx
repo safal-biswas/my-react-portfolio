@@ -117,7 +117,7 @@ export default function Services() {
         <div
             ref={sectionRef}
             id="services"
-            className="md:px-8 xl:px-16 2xl:20 mx-auto bg-gradient-to-tr from-darkBlue to-violet text-lightGray flex flex-col items-center justify-center pt-24 pb-10"
+            className="md:px-8 xl:px-16 2xl:20 mx-auto bg-gradient-to-tr from-darkBlue to-violet text-lightGray flex flex-col items-center justify-center pt-10 md:pt-24 pb-10"
         >
             {/* <div className='w-full h-12 bg-transparent hidden lg:block' id='services'></div> */}
 

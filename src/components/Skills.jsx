@@ -118,7 +118,7 @@ function Skills() {
     return (
         <div
             id="skills"
-            className="mx-auto bg-gradient-to-br from-darkBlue to-violet pt-24 pb-16"
+            className="mx-auto bg-gradient-to-br from-darkBlue to-violet pt-10 md:pt-24 pb-16"
         >
             {/* Title Section */}
             <motion.div

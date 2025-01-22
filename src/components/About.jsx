@@ -48,7 +48,7 @@ function About() {
                         >
                             {/* Image Section */}
                             <div
-                                className="w-full lg:w-1/3 flex justify-center items-center relative py-20">
+                                className="w-full lg:w-1/3 flex justify-center items-center relative py-10 md:py-20">
                                 {/* Radial Animated Border */}
                                 <div className="absolute lg:hidden xl:block w-64 h-64 md:w-96 md:h-96 rounded-full border-4 lg:border-8 border-dotted border-accent animate-spin-slow z-0"></div>
                                 <div className="absolute w-56 h-56 md:w-80 md:h-80 rounded-full bg-darkBlue z-10"></div>

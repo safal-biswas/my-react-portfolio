@@ -151,7 +151,7 @@ const ImageSlider = () => {
     return (
         <div
             id="portfolio"
-            className=" mx-auto w-screen bg-gradient-to-br from-darkBlue to-violet text-lightGray overflow-hidden flex flex-col justify-center pt-24  lg:pb-20"
+            className=" mx-auto w-screen bg-gradient-to-br from-darkBlue to-violet text-lightGray overflow-hidden flex flex-col justify-center pt-16 md:pt-24 lg:pb-20"
         >
             {/* Title Section */}
             <motion.div
