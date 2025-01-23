@@ -13,7 +13,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Services from './components/Services'
 import Portfolio from './components/Portfolio'
-import Education from './components/Education'
+// import Education from './components/Education'
 import Contacts from './components/Contacts'
 import MyFooter from "./components/MyFooter";
 
@@ -29,7 +29,7 @@ function App() {
             <Skills />
             <Services />
             <Portfolio />
-            <Education />
+            {/* <Education /> */}
             <Contacts />
             <MyFooter />
         </>
